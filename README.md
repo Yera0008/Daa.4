@@ -48,7 +48,7 @@ Records vertex/edge counts, SCCs, and runtimes
 
 Prints full summary to the console
 
-🧩 Project Structure
+Project Structure
 Assignment4/
  ├── pom.xml
  ├── data/                
@@ -77,7 +77,7 @@ Experiment Results
 | large_2  | 43       | 182   | 43   | 0.061         | 0.107          | 0.033              | 0.049             |
 | large_3  | 24       | 62    | 24   | 0.038         | 0.059          | 0.031              | 0.055             |
 
-🧠 Analysis
+Analysis
 
 Runtime increases with dataset size, as expected from O(V + E) complexity.
 
