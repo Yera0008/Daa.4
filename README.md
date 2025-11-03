@@ -91,11 +91,6 @@ Topological Sort always processes roughly one edge per vertex in DAGs.
 
 Overall, the algorithms perform efficiently across all dataset sizes with runtimes below 1 ms.
 
-containing:
-
-dataset,vertices,edges,sccs,scc_time_ms,topo_time_ms,shortest_time_ms,longest_time_ms
-small_1,8,5,8,0.029,0.038,0.017,0.015
-
 Complexity Summary:
 - Algorithm	Time Complexity	Description
 - Tarjan SCC	O(V + E)	DFS-based component discovery
